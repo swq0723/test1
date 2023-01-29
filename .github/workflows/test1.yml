@@ -1,6 +1,6 @@
 name: test1-github-actions
 run-name: ${{ github.actor }} 
-on: []
+on: [pull_request]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
